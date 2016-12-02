@@ -18,6 +18,9 @@ originally was missing GA as the state abbreviation.
 makejson.py constructs the json dictionary from zip code to county
 code from the zipcty files. The output is in zip2fips.json.
 
+revere_json.py contains code to generate the reverse fips2zips mapping, which is stored
+in fip2zips.json.
+
 The state_fips.json file was made by hand, where "by hand" means I
 copy-and-pasted [this
 table](https://en.wikipedia.org/wiki/Federal_Information_Processing_Standard_state_code#FIPS_state_codes) and
