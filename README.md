@@ -1,5 +1,5 @@
-zip2fips
-========
+zip2fips // fip2zips
+=====================
 
 At work, we keep certain location information indexed by
 zipcode. Recently, I wanted to feed that data into something that
