@@ -15,11 +15,8 @@ The fetch_source script downloads the zip files and makes the one
 "cleanup" change required, to line 1794315 of zipcty4, which
 originally was missing GA as the state abbreviation.
 
-makejson.py constructs the json dictionary from zip code to county
-code from the zipcty files. The output is in zip2fips.json.
-
-reverse_json.py contains code to generate the reverse fips2zips mapping, which is stored
-in fip2zips.json.
+makejson.py constructs the json dictionary from fips code to state, county and zip
+code from the zipcty files. The output is in fips2counties_v2.json.
 
 The state_fips.json file was made by hand, where "by hand" means I
 copy-and-pasted [this
